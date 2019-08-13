@@ -9,7 +9,7 @@
 
 ## Instructions
 
-In this lab, we'll be dealing with tw sets of classes. The `Artist` and `Song`
+In this lab, we'll be dealing with two sets of classes. The `Artist` and `Song`
 class and the `Author` and `Post` class. An artist should have many songs and a
 song should belong to an artist. An author should have many posts and a post
 should belong to an author.
