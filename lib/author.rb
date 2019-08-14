@@ -21,9 +21,9 @@ class Author
     post.author = self
   end
 #displays all posts assigned to Author
-  def posts
-    Post.all.select {|post| post.author == self}
-  end
+def posts
+  Post.all.select {|post| post.author == self}
+end
 #counts the total amount of posts created
   def self.post_count
     Post.all.count
