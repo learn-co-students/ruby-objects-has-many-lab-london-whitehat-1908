@@ -13,6 +13,9 @@ class Artist
     end
    #adds existing song to artist
     def add_song(song)
+      print "**********************"
+      print song
+
       song.artist = self
     end
   #creates a new song by name and adds to artist
@@ -24,7 +27,7 @@ class Artist
     def songs
       Song.all.select {|song| song.artist == self}
     end
-  #counts the total amount of songs created
+  #counts the total amount of songs created 
     def self.song_count
       Song.all.count
     end
