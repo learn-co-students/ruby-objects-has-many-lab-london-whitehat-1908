@@ -13,10 +13,7 @@ class Artist
     end
    #adds existing song to artist
     def add_song(song)
-      print "**********************"
-      print song
-
-      song.artist = self
+        song.artist = self
     end
   #creates a new song by name and adds to artist
     def add_song_by_name(name)
